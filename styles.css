@@ -1,0 +1,295 @@
+{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: palevioletred;
+    color: black;
+    padding: 20px;
+    margin: 5PX;
+    text-align: center;
+    font-size: large;
+    border-radius: 40px;
+    font-stretch: expanded;
+    text-transform: capitalize;
+}
+footer {
+    background-color: blue;
+    color: yellow;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 50px;
+    border-color: #000000;
+}
+main{
+    animation-direction: alternate;
+    flex-direction: row;
+}
+.flex-item {
+    flex: 3;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+    border: 1px;
+    background-color: blue;
+}
+ul{
+    list-style-type: disc;
+}
+ul li {
+    padding: 2px;
+    background-color: yellow;
+    color: azure;
+    text-align: center;
+    border: 1px brown;
+}
+ul li a {
+    color: purple;
+}
+ul li:hover {
+    background-color: lightblue;
+}
+ul li a:link {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+section h3 {
+    background-color: black;
+    color: lightseagreen;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px dashed #000000;
+}
+@media (max-width:600px) {
+    main{
+        flex-direction: row;
+    }
+}
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 70px;
+    font-style: italic;
+    font-size: larger;
+    float: inline-end;
+    font-weight: 400;
+    border-color: #000000;
+    border-width: 2px;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer {
+    padding: 30px;
+    background-color: solid lightcoral;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: lawngreen;
+    color: green;
+}
+
+nav a {
+    color: red;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-decoration-color: aqua;
+    padding: 20px 30px;
+    font-style: italic;
+}
+.book {
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+.book img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 200px;
+}
+.add-to-cart-btn {
+    background-color: blue;
+    border-color: black;
+    padding: 10px 5px;
+    cursor: pointer;
+    text-decoration: overline;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #333;
+    color: gray;
+}
+footer {
+    text-align: center;
+    background-color: #3333;
+    color: red;
+    padding: 10px 0;
+}
+img{
+    max-width: 200px;
+    height: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+header, nav, main, footer {
+    padding: 10px;
+    background-color: greenyellow;
+    border-style: groove;
+}
+
+
+.profile {
+    text-align: center;
+    background-color: peru;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.profile h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.profile a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: brown;
+    color: azure;
+    text-decoration: underline;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+.profile a:hover {
+    background-color: gray;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: grey;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.logo img {
+    width: 300px;
+    height: 200px;
+    border-radius: 150px;
+    box-sizing: inherit;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.user-info a:hover {
+    color: lightsalmon;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center; 
+    text-size-adjust: 100px;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-decoration-color: aqua;
+    color: lightgreen;
+    padding: 10px 20px; 
+    box-shadow: #333;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+main {
+    max-width: 12000px;
+    margin: 10px auto;
+    padding: 10px;
+    font-display: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration-line: 50px;
+}
+
+.featured-books, .categories {
+    flex-basis: calc(50px - 20px);
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.book {
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+    height: auto;
+    width: auto;
+    border-radius: 0px;
+}
+
+.book img {
+    width: 300;
+    height: 300;
+    border-radius: 500px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
